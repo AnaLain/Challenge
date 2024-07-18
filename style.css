@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #D8DFE8;
+    box-sizing: border-box;
+    color: #0A3871;
+    height: 100vh;
+}
+
+.header__contenido__logo{
+    justify-content: flex-start;
+}
+
+.inicio__challenge__contenido{
+    gap: 50px;
+}
+
+.inicio__challenge{
+    display: flex;
+}
+
+.inicio__challenge__texto{
+    color: #0A3871;
+    font-family: 'Inter', sans-serif;
+}
+.presentacion__contenido__titulo{
+    justify-content: flex-start;
+    font-size: 1.5rem;
+}
+
+.mensaje__contenido{
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    gap: 10px;
+    flex-direction: row-reverse;
+}
+.conversor__encriptar{
+    display: flex;
+    text-align: center;
+    border-radius: 8px;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 15px;
+    border: 2px solid #0A3871;
+    
+}
+
+.converso__desencriptar{
+    display: flex;
+    border: 2px solid #0A3871;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+
+
+.presentacion__imagen{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.mensaje__encriptado{
+    color: #FFFFFF;
+}
