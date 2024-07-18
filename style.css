@@ -6,6 +6,9 @@
 }
 section{
     display: flex;
+    flex-direction: colum;
+    flex-wrap: wrap;
+    flex:200;
 }
 body{
     background-color: #D8DFE8;
